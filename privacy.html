@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – F1 Season Stats</title>
+  <style>
+    :root {
+      --red: #E8002D;
+      --dark: #0f0f0f;
+      --card: #1a1a1a;
+      --border: #2a2a2a;
+      --text: #f0f0f0;
+      --muted: #888;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: var(--dark);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 24px;
+      text-align: center;
+    }
+
+    header a {
+      color: var(--red);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 80px;
+    }
+
+    .content h1 {
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    p {
+      color: #ccc;
+      font-size: 0.95rem;
+      margin-bottom: 14px;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    ul li {
+      font-size: 0.95rem;
+      color: #ccc;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+      color: var(--red);
+    }
+
+    a {
+      color: var(--red);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .highlight-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--red);
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin: 24px 0;
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--muted);
+    }
+
+    footer a:hover {
+      color: var(--text);
+    }
+
+    .dot { margin: 0 8px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="/">&larr; Back to F1 Season Stats</a>
+  </header>
+
+  <div class="content">
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last updated: March 2026</p>
+
+    <div class="highlight-box">
+      F1 Season Stats does not collect, store, or share any personal information. The app is a read-only stats viewer — you don't create an account and you don't submit any data.
+    </div>
+
+    <h2>What data the app uses</h2>
+    <p>The app downloads Formula 1 season data (race results, standings, driver and constructor information) from a Firebase Firestore database maintained by the developer. This is a one-way sync: the app only reads data, it never uploads anything about you or your device.</p>
+
+    <h2>Data stored on your device</h2>
+    <p>The following preferences are saved locally using Apple's standard storage APIs and never leave your device:</p>
+    <ul>
+      <li>Whether you have completed the onboarding screens</li>
+      <li>Your chosen colour scheme (System / Light / Dark)</li>
+      <li>Your selected favourite driver or constructor</li>
+      <li>A launch counter used to decide when to show the App Store review prompt</li>
+      <li>Your Season Pass unlock status</li>
+    </ul>
+
+    <h2>Purchases</h2>
+    <p>In-app purchases (Season Pass and optional tips) are processed entirely by Apple via StoreKit. The app receives only a confirmation of whether a purchase was completed. No payment details are visible to or stored by the developer.</p>
+
+    <h2>Third-party services</h2>
+    <p>The app uses <strong>Firebase Firestore</strong> (by Google) solely to download the season dataset on launch. No analytics, crash reporting, or advertising SDKs are included. Please refer to <a href="https://firebase.google.com/support/privacy" target="_blank">Google's Firebase privacy documentation</a> for details on how Firebase handles network requests.</p>
+
+    <h2>Children's privacy</h2>
+    <p>The app does not knowingly collect any information from anyone, including children under the age of 13.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If the privacy practices of the app change materially, this page will be updated and the "Last updated" date revised. Continued use of the app after any changes constitutes acceptance of the updated policy.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this privacy policy? Reach out at <a href="mailto:f1seasonstats@xiaozhustudio.com">f1seasonstats@xiaozhustudio.com</a>.</p>
+  </div>
+
+  <footer>
+    <p>
+      &copy; 2026 Xiaozhu Studio
+      <span class="dot">•</span>
+      <a href="/">Home</a>
+      <span class="dot">•</span>
+      <a href="mailto:f1seasonstats@xiaozhustudio.com">Contact Support</a>
+    </p>
+  </footer>
+
+</body>
+</html>
